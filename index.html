@@ -218,7 +218,7 @@
 	</center>
 
 	<center>
-		<table align=center width=850px>
+		<table align=center width=800px>
 			<tr>
 				<td width=260px>
 					<center>
@@ -251,8 +251,8 @@
 				3D-FM GAN, a novel conditional GAN framework designed specifically
 				for 3D-controllable Face Manipulation, and does not require any tuning
 				after the end-to-end learning phase. By carefully encoding both the input
-				face image and a physically-based rendering of 3D edits into a Style-
-				GAN’s latent spaces, our image generator provides high-quality, identitypreserved,
+				face image and a physically-based rendering of 3D edits into a StyleGAN’s 
+				latent spaces, our image generator provides high-quality, identity-preserved,
 				3D-controllable face manipulation. To effectively learn such
 				novel framework, we develop two essential training strategies and a novel
 				multiplicative co-modulation architecture that improves significantly upon
@@ -264,6 +264,34 @@
 			</td>
 		</tr>
 	</table>
+	<br>
+
+
+	<hr>
+
+	<table align=center width=850px>
+		<center><h1>Methodology</h1></center>
+		<tr>
+			<td>
+				<table align=center width=800px>
+					<tr>
+						<td align=center width=800px>
+							<center>
+								<td><img class="round" style="width:850" src="./resources/method_diagram.png"/></td>
+							</center>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table align=center width=850px>
+			<tr>
+				<td>
+					3D-FM GAN takes a single photo as input. It first extracts the 3D parameter of the photo by face reconstruction and then renders identity-preserved 3D-manipulated edit faces. The input photo and the edit signals are later jointly encoded into a generator to synthesize various photo editings.
+				</td>
+			</tr>
+		</table>
 	<br>
 
 	<hr>
@@ -324,10 +352,10 @@
 		<center><h1>Paper and Supplementary Material</h1></center>
 		<tr>
 			<td><a href=""><img class="layered-paper-big" style="height:175px" src="./resources/paper.png"/></a></td>
-			<td><span style="font-size:14pt">F. Author, S. Author, T. Author.<br>
-				<b>Creative and Descriptive Paper Title.</b><br>
-				In Conference, 20XX.<br>
-				(hosted on <a href="">ArXiv</a>)<br>
+			<td><span style="font-size:14pt">Yuchen Liu, Zhixin Shu, Yijun Li, Zhe Lin, Richard Zhang, S.Y. Kung<br>
+				<b>3D-FM GAN: Towards 3D-Controllable Face Manipulation</b><br>
+				In ECCV, 2022.<br>
+				<!-- (hosted on <a href="">ArXiv</a>)<br> -->
 				<!-- (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> -->
 				<span style="font-size:4pt"><a href=""><br></a>
 				</span>
@@ -339,7 +367,8 @@
 	<table align=center width=600px>
 		<tr>
 			<td><span style="font-size:14pt"><center>
-				<a href="./resources/bibtex.txt">[Bibtex]</a>
+				<!-- <a href="./resources/bibtex.txt">[Bibtex]</a> -->
+				<a href=''>[Bibtex]</a>
 			</center></td>
 		</tr>
 	</table>
